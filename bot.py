@@ -10,7 +10,7 @@ from aiogram.types import (
 )
 
 
-TOKEN = os.getenv(API_TOKEN)
+TOKEN = os.getenv("API_TOKEN")
 
 async def main():
     bot = Bot(token=TOKEN)
